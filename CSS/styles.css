@@ -69,6 +69,13 @@ img {
 }
 
 /* ШАПКА САЙТА */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-main-page {
+  border: none;
+}
 
 .header .container {
   display: flex;
@@ -655,7 +662,7 @@ img {
 .portfolio-list-item-desc {
   margin: 0px;
   margin-top: 4px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   padding-left: 24px;
   font-weight: 400;
   font-size: 16px;
